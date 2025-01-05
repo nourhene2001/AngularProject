@@ -1,0 +1,55 @@
+<div style="display: flex; justify-content: space-around">
+    <mat-card appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>NB Books</mat-card-title>
+        <mat-card-subtitle>{{ totalBooks }}</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+    <mat-card appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>NB Read</mat-card-title>
+        <mat-card-subtitle>{{ nbRead }}</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+    <mat-card appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>NB To Be Read</mat-card-title>
+        <mat-card-subtitle>{{ nbToBeRead }}</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+    <mat-card appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>NB Ongoing</mat-card-title>
+        <mat-card-subtitle>{{ nbOngoing }}</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+  </div>
+  
+  <div>
+    <div
+      class="chart-wrapper"
+      style="display: grid; grid-template-columns: 500px 500px; justify-content: space-around;"
+    >
+      <div>
+        <h3>Book Status Distribution</h3>
+        <canvas
+          baseChart
+          [type]="'pie'"
+          [datasets]="chartDataPie"
+          [labels]="chartLabelsPie"
+          [options]="chartOptions"
+        ></canvas>
+      </div>
+      <div>
+        <h3>Books per Genre</h3>
+        <canvas
+          baseChart
+          [type]="'bar'"
+          [datasets]="chartDataBar"
+          [labels]="chartLabelsBar"
+          [options]="chartOptions"
+        ></canvas>
+      </div>
+    </div>
+  </div>
+  

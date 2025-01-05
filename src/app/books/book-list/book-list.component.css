@@ -1,0 +1,147 @@
+/* General page background and layout */
+body {
+    background-color: #f7f7f7; /* Soft light gray */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+ /* Header section */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px;
+    padding: 20px;
+
+  }
+  
+/* Title Styling */
+.title {
+    font-size: 3.5rem; /* Increased size for prominence */
+    font-weight: 600; /* Bold font for better visibility */
+    color: #72282e;; /* Calming dark blue */
+    margin: 0;
+    letter-spacing: 1.5px; /* Slightly reduced spacing for a tighter look */
+    text-transform: capitalize; /* More natural elegance */
+    text-align: left;
+    line-height: 1.2; /* Improved spacing for better readability */
+  }
+  
+  
+  
+  /* Button group */
+  .button-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  /* Styling buttons */
+  button {
+    background-color: #ca8f94;; /* Softer blue-gray */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #72282e;; /* Darker blue-gray */
+    transform: translateY(-3px);
+  }
+  
+  /* Table Styling */
+  table {
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-spacing: 0;
+  }
+  
+  /* Table headers */
+  th {
+    background-color: #F1FAEE; /* Very light pastel green */
+    color: #2a2a2a;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Table data cells */
+  td {
+    padding: 12px;
+    color: #555;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Table row hover effect */
+  tr:hover {
+    background-color: #F1F1F1; /* Subtle soft background */
+  }
+  
+  /* Action column buttons */
+  button.mat-button {
+    background-color: #b69396;; /* Calm pastel teal */
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button.mat-button:hover {
+    background-color: #72282e;; /* Softer blue-gray */
+    transform: translateY(-2px);
+  }
+  
+  /* Icon Styling */
+  mat-icon {
+    cursor: pointer;
+    color: #72282e; /* Soft red for icons */
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    width: 75px;
+  }
+  
+  /* Icon hover effect */
+  mat-icon:hover {
+    color: #7c4b4f;; /* Very light pastel green */
+  }
+  
+  /* Table row action column */
+  td mat-icon {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Table for small screens */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    th, td {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

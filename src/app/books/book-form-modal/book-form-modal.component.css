@@ -1,0 +1,86 @@
+/* General page background and layout for dialog */
+mat-dialog-content {
+    background-color: #ffffff; /* Clean white background for dialog */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Form fields inside the dialog */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Input, select, and textarea fields inside dialog */
+  input, textarea, mat-select {
+    background-color: #f9f9f9; /* Soft background for form inputs */
+    border: 1px solid #d1d1d1;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  input:focus, textarea:focus, mat-select:focus {
+    border-color: #ca8f94; /* Softer teal color for focus effect */
+  }
+  
+  /* Textarea resizing */
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  /* Error message styling */
+  mat-error {
+    color: #e74c3c; /* Red color for error messages */
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+  /* Dialog actions container */
+  mat-dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f7f7; /* Soft background for actions */
+    border-top: 1px solid #e0e0e0;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  /* Button styling */
+  button.mat-raised-button {
+    background-color: #ca8f94; /* Softer teal for buttons */
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  button.mat-raised-button:hover {
+    background-color: #72282e; /* Darker red for hover effect */
+    transform: translateY(-3px);
+  }
+  
+  /* Disabled button style */
+  button.mat-raised-button[disabled] {
+    background-color: #d1d1d1; /* Disabled gray */
+    cursor: not-allowed;
+  }
+  
+  /* Button spacing */
+  button.mat-raised-button:not(:last-child) {
+    margin-right: 5px;
+  }
+  

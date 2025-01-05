@@ -1,0 +1,78 @@
+/* Style for the mat-card */
+mat-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* On hover, add interactivity */
+  mat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title of the card */
+  mat-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6200ea;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Style for the button */
+  button {
+    background-color: #4285f4;  /* Google Blue */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #34a853; /* Google Green */
+    transform: translateY(-2px);
+  }
+  
+  /* Button active effect */
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Adding Google Icon on the left side of the button */
+  button::before {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/a/a4/Google_2015_logo.svg');
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 600px) {
+    mat-card {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    mat-card-title {
+      font-size: 1.2rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

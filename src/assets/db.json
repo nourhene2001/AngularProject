@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "id": "9b1f",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
+      "genre": "Dystopian",
+      "status": "to-be-read"
+    },
+    {
+      "id": "3a6d",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A romantic novel that explores the themes of love, reputation, and class.",
+      "genre": "Romance",
+      "status": "ongoing"
+    },
+    {
+      "id": "7b2e",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "An adventure novel following Bilbo Baggins as he joins a group of dwarves on a quest.",
+      "genre": "Fantasy",
+      "status": "read"
+    },
+    {
+      "id": "2a9f",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "A historical novel set during the Napoleonic wars, dealing with complex themes of society, war, and love.",
+      "genre": "Historical",
+      "status": "ongoing"
+    }
+  ]
+}

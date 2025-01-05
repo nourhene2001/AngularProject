@@ -1,0 +1,72 @@
+/* General container for cards */
+div {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for mat-cards */
+  mat-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* On hover, add some interactivity */
+  mat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header inside mat-card */
+  mat-card-header {
+    background-color: #b6898d;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Card title */
+  mat-card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  /* Card subtitle */
+  mat-card-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 8px;
+    color: #ffffff;
+  }
+  
+ 
+  /* Each chart container */
+  .chart-wrapper div {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading inside chart container */
+  .chart-wrapper h3 {
+    font-size: 1.2rem;
+    color: #b6898d;;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  /* Ensuring canvas is responsive and centers properly */
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  

@@ -1,0 +1,105 @@
+/* General page background and layout */
+body {
+    background-color: #f7f7f7; /* Soft light gray */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Form card styling */
+  .form-card {
+    background-color: #ffffff; /* Soft white background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  
+  /* Form title styling */
+  mat-card-title {
+    font-size: 3.5rem; /* Increased size for prominence */
+    font-weight: 600; /* Bold font for better visibility */
+    color: #72282e; /* Calming dark red */
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    line-height: 1.2;
+  }
+  
+  /* Styling form fields */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Input, select, and textarea fields styling */
+  input, textarea, mat-select {
+    background-color: #f9f9f9; /* Soft background for form inputs */
+    border: 1px solid #d1d1d1;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  input:focus, textarea:focus, mat-select:focus {
+    border-color: #ca8f94; /* Softer teal color for focus effect */
+  }
+  
+  /* Textarea resizing */
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  /* Submit button styling */
+  button[type="submit"] {
+    background-color: #ca8f94; /* Softer teal for button */
+    color: #ffffff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Full width on smaller screens */
+  }
+  
+  /* Submit button hover effect */
+  button[type="submit"]:hover {
+    background-color: #72282e; /* Darker red for hover effect */
+    transform: translateY(-3px);
+  }
+  
+  /* Label styling */
+  mat-label {
+    color: #2a2a2a; /* Dark gray for labels */
+    font-weight: 600;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .form-card {
+      padding: 20px;
+      margin: 15px;
+    }
+  
+    button[type="submit"] {
+      width: 100%; /* Ensure button spans full width on small screens */
+    }
+  
+    mat-form-field {
+      margin-bottom: 15px; /* Reduced margin on small screens */
+    }
+  }
+  

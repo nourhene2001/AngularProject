@@ -1,0 +1,44 @@
+<mat-card class="form-card">
+    <form [formGroup]="form" (ngSubmit)="sub()">
+      <!-- Book Title -->
+      <mat-form-field appearance="fill">
+        <mat-label>Book Title</mat-label>
+        <input matInput placeholder="Book Title" formControlName="title" />
+      </mat-form-field>
+  
+      <!-- Book Author -->
+      <mat-form-field appearance="fill">
+        <mat-label>Book Author</mat-label>
+        <input matInput placeholder="Book Author" formControlName="author" />
+      </mat-form-field>
+  
+      <!-- Genre -->
+      <mat-form-field appearance="fill">
+        <mat-label>Genre</mat-label>
+        <input matInput placeholder="Genre" formControlName="genre" />
+      </mat-form-field>
+  
+      <!-- Description -->
+      <mat-form-field appearance="fill">
+        <mat-label>Description</mat-label>
+        <textarea matInput placeholder="Description" formControlName="description"></textarea>
+      </mat-form-field>
+  
+      
+  
+      <!-- Status -->
+      <mat-form-field appearance="fill">
+        <mat-label>Status</mat-label>
+        <mat-select formControlName="status">
+          <mat-option value="read">Read</mat-option>
+          <mat-option value="to-be-read">To Be Read</mat-option>
+          <mat-option value="ongoing">Ongoing</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-raised-button color="primary" type="submit">Soumettre</button>
+      </div>
+      
+    </form>
+  </mat-card>
+  
