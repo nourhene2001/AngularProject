@@ -29,8 +29,16 @@
       "title": "War and Peace",
       "author": "Leo Tolstoy",
       "description": "A historical novel set during the Napoleonic wars, dealing with complex themes of society, war, and love.",
-      "genre": "Historical",
+      "genre": "thriller",
       "status": "ongoing"
+    },
+    {
+      "id": "4da9",
+      "title": "1st case",
+      "author": "james patternson",
+      "genre": "thriller",
+      "description": "ieeeekh\nieekh whdk\n",
+      "status": "read"
     }
   ]
 }
