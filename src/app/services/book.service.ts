@@ -9,7 +9,6 @@ export class BookService {
 
   constructor(private httpClient: HttpClient) {}
 
-  //REQURST GET
 
   getAllBooks(): Observable<any[]> {
     return this.httpClient.get<any[]>('http://localhost:3000/books');

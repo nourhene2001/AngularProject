@@ -18,7 +18,7 @@ export class BookFormModalComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // Initialize the form after receiving data
+    
     this.form = new FormGroup({
       id: new FormControl(this.data.id, [Validators.required]),
       title: new FormControl(this.data.title, [Validators.required]),
@@ -28,14 +28,14 @@ export class BookFormModalComponent implements OnInit {
       status: new FormControl(this.data.status, [Validators.required]),
     });
 
-    console.log('Form initialized with:', this.form.value); // Log the form values to ensure it's populated
+    console.log('Form initialized with:', this.form.value); 
   }
 
   save() {
-    this.dialogRef.close(this.form.value); // Close the dialog and pass the form data
+    this.dialogRef.close(this.form.value); 
   }
 
   close() {
-    this.dialogRef.close(); // Close the dialog without passing any data
+    this.dialogRef.close(); 
   }
 }

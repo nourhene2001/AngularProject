@@ -35,7 +35,6 @@ export class BookListComponent implements OnInit{
       this.dataSource.data = data;
     });
   }
-  // Navigate to Add Book form
   navigateToAddBook(): void {
     console.log('BookformComponent loaded');
 

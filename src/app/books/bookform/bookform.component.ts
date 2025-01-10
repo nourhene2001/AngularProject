@@ -12,14 +12,13 @@ import { BookService } from '../../services/book.service';
 })
 export class BookformComponent implements OnInit {
   constructor(
-    private bookService: BookService, // Inject your BookService
-    private router: Router // Router for navigation after form submission
+    private bookService: BookService, 
+    private router: Router 
   ) {}
 
-  form!: FormGroup; // Form group for the form controls
+  form!: FormGroup; 
 
   ngOnInit(): void {
-    // Initialize an empty form for creating a new book
     this.form = new FormGroup({
       title: new FormControl(null, [Validators.required]),
       author: new FormControl(null, [Validators.required]),
@@ -30,17 +29,15 @@ export class BookformComponent implements OnInit {
     });
   }
 
-  // Method to handle form submission for creating a new book
   sub(): void {
     if (this.form.valid) {
-      // If form is valid, call the insertBook method from BookService
       this.bookService.insertBook(this.form.value).subscribe(() => {
-        this.router.navigate(['/book']); // Navigate to the books list after successful submission
+        this.router.navigate(['/book']);
       });
     } else {
-      console.error('Form is invalid'); // Handle invalid form submission
+      console.error('Form is invalid'); 
     }
-    console.log(this.form.value); // Log the form value for debugging
+    console.log(this.form.value); 
   }
 }
 

@@ -11,7 +11,6 @@ export class ConfirmDeleteModalComponent {
 
 
 
-  //forcage de type
   constructor( public dialogRef:MatDialogRef<ConfirmDeleteModalComponent>){
     
   }

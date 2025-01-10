@@ -16,7 +16,6 @@ export class DashboardComponent implements OnInit {
 
   genreCounts: { [genre: string]: number } = {};
 
-  // Chart data for pie chart (book status)
   chartDataPie: ChartDataset[] = [
     {
       data: [],
@@ -24,7 +23,6 @@ export class DashboardComponent implements OnInit {
   ];
   chartLabelsPie: string[] = ['Read', 'To Be Read', 'Ongoing'];
 
-  // Chart data for bar chart (books by genre)
   chartDataBar: ChartDataset[] = [
     {
       label: 'Books per Genre',
@@ -52,7 +50,6 @@ export class DashboardComponent implements OnInit {
     this.bookService.getAllBooks().subscribe((books) => {
       this.totalBooks = books.length;
 
-      // Count books by status and genre
       books.forEach((book) => {
         if (book.status === 'read') {
           this.nbRead++;
@@ -62,7 +59,6 @@ export class DashboardComponent implements OnInit {
           this.nbOngoing++;
         }
 
-        // Count books by genre
         const genre = book.genre;
         if (this.genreCounts[genre]) {
           this.genreCounts[genre]++;
@@ -71,7 +67,6 @@ export class DashboardComponent implements OnInit {
         }
       });
 
-      // Prepare data for charts
       this.chartDataPie = [
         {
           data: [this.nbRead, this.nbToBeRead, this.nbOngoing],
