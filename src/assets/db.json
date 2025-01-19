@@ -1,31 +1,12 @@
 {
   "books": [
     {
-      "id": "6494",
-      "title": "flzek",
-      "author": "gfd",
-      "genre": "7",
-      "description": "fe",
-      "status": "to-be-read",
-      "genreId": "7"
-    },
-    {
-      "id": "5860",
-      "title": "gkzljk",
-      "author": ",gkl",
-      "genre": "8",
-      "description": "glr",
-      "status": "to-be-read",
-      "genreId": "8"
-    },
-    {
       "id": "1001",
       "title": "The Mystic Isles",
       "author": "Alice Greene",
-      "genre": "1",
       "description": "A tale of magic and mystery.",
-      "status": "read",
-      "genreId": "1"
+      "genre": "2",
+      "status": "read"
     },
     {
       "id": "1002",
@@ -107,6 +88,33 @@
       "description": "Modern takes on classic literature.",
       "status": "ongoing",
       "genreId": "17"
+    },
+    {
+      "id": "fce3",
+      "title": "1st case",
+      "author": "james",
+      "genre": "8",
+      "description": "dkhz",
+      "status": "ongoing",
+      "genreId": "8"
+    },
+    {
+      "id": "2c8c",
+      "title": "nlj",
+      "author": "njl",
+      "genre": "1",
+      "description": "ijkn",
+      "status": "ongoing",
+      "genreId": "1"
+    },
+    {
+      "id": "a289",
+      "title": "1st case",
+      "author": "james",
+      "genre": "18",
+      "description": "kyu",
+      "status": "ongoing",
+      "genreId": "18"
     }
   ],
   "genres": [
@@ -115,12 +123,12 @@
       "name": "Fantasy",
       "books": [
         {
-          "id": "1001",
-          "title": "The Mystic Isles",
-          "author": "Alice Greene",
+          "id": "2c8c",
+          "title": "nlj",
+          "author": "njl",
           "genre": "1",
-          "description": "A tale of magic and mystery.",
-          "status": "read",
+          "description": "ijkn",
+          "status": "ongoing",
           "genreId": "1"
         }
       ]
@@ -137,6 +145,14 @@
           "description": "A timeless romance.",
           "status": "ongoing",
           "genreId": "2"
+        },
+        {
+          "id": "1001",
+          "title": "The Mystic Isles",
+          "author": "Alice Greene",
+          "description": "A tale of magic and mystery.",
+          "genre": "2",
+          "status": "read"
         }
       ]
     },
@@ -160,15 +176,6 @@
       "name": "Historical Fiction",
       "books": [
         {
-          "id": "6494",
-          "title": "flzek",
-          "author": "gfd",
-          "genre": "7",
-          "description": "fe",
-          "status": "to-be-read",
-          "genreId": "7"
-        },
-        {
           "id": "1004",
           "title": "Timeless Heroes",
           "author": "Peter Clarke",
@@ -184,12 +191,12 @@
       "name": "Biography",
       "books": [
         {
-          "id": "5860",
-          "title": "gkzljk",
-          "author": ",gkl",
+          "id": "fce3",
+          "title": "1st case",
+          "author": "james",
           "genre": "8",
-          "description": "glr",
-          "status": "to-be-read",
+          "description": "dkhz",
+          "status": "ongoing",
           "genreId": "8"
         }
       ]
@@ -281,6 +288,21 @@
           "description": "Modern takes on classic literature.",
           "status": "ongoing",
           "genreId": "17"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "thriller",
+      "books": [
+        {
+          "id": "a289",
+          "title": "1st case",
+          "author": "james",
+          "genre": "18",
+          "description": "kyu",
+          "status": "ongoing",
+          "genreId": "18"
         }
       ]
     }

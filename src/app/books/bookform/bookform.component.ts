@@ -8,7 +8,7 @@ import { GenreService } from '../../services/genre.service';
   selector: 'app-book-form',
   templateUrl: './bookform.component.html',
   styleUrls: ['./bookform.component.css'],
-  standalone:false
+  standalone: false
 })
 export class BookformComponent implements OnInit {
   form!: FormGroup;
@@ -43,23 +43,17 @@ export class BookformComponent implements OnInit {
         genreId: this.form.value.genre, // Link by genre ID
       };
   
-      // First, insert the new book
       this.bookService.insertBook(bookData).subscribe({
         next: (newBook) => {
           console.log('Book added successfully:', newBook);
-  
-          // Update the genre with the new book
           this.genreService.getGenreById(newBook.genreId).subscribe((genre) => {
             if (genre) {
-              // Add the new book to the genre's books array
               genre.books = genre.books || [];
               genre.books.push(newBook);
-  
-              // Update the genre with the new book
+
               this.genreService.updateGenreById(newBook.genreId, genre).subscribe({
                 next: () => {
                   console.log('Genre updated successfully with the new book');
-                  // Redirect after successful operations
                   this.router.navigate(['/book']);
                 },
                 error: (err) => {
@@ -77,8 +71,4 @@ export class BookformComponent implements OnInit {
       console.error('Form is invalid');
     }
   }
-  
-  
 }
-
-
