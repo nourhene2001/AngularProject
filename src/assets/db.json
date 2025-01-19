@@ -17,23 +17,143 @@
       "description": "glr",
       "status": "to-be-read",
       "genreId": "8"
+    },
+    {
+      "id": "1001",
+      "title": "The Mystic Isles",
+      "author": "Alice Greene",
+      "genre": "1",
+      "description": "A tale of magic and mystery.",
+      "status": "read",
+      "genreId": "1"
+    },
+    {
+      "id": "1002",
+      "title": "Love in the Moonlight",
+      "author": "Emma Frost",
+      "genre": "2",
+      "description": "A timeless romance.",
+      "status": "ongoing",
+      "genreId": "2"
+    },
+    {
+      "id": "1003",
+      "title": "The Haunted Manor",
+      "author": "John Black",
+      "genre": "6",
+      "description": "A chilling horror story.",
+      "status": "to-be-read",
+      "genreId": "6"
+    },
+    {
+      "id": "1004",
+      "title": "Timeless Heroes",
+      "author": "Peter Clarke",
+      "genre": "7",
+      "description": "Adventures from the past.",
+      "status": "read",
+      "genreId": "7"
+    },
+    {
+      "id": "1005",
+      "title": "The Philosopher's Mind",
+      "author": "Sophia Lee",
+      "genre": "11",
+      "description": "Exploring philosophical ideas.",
+      "status": "read",
+      "genreId": "11"
+    },
+    {
+      "id": "1006",
+      "title": "Poetry of the Heart",
+      "author": "William Poe",
+      "genre": "12",
+      "description": "A collection of heartfelt poems.",
+      "status": "ongoing",
+      "genreId": "12"
+    },
+    {
+      "id": "1007",
+      "title": "The Graphic World",
+      "author": "Chris Hart",
+      "genre": "13",
+      "description": "A deep dive into graphic novels.",
+      "status": "to-be-read",
+      "genreId": "13"
+    },
+    {
+      "id": "1008",
+      "title": "Youthful Dreams",
+      "author": "Lara Bright",
+      "genre": "14",
+      "description": "A captivating young adult novel.",
+      "status": "to-be-read",
+      "genreId": "14"
+    },
+    {
+      "id": "1009",
+      "title": "The Great Adventures",
+      "author": "Mark Rivers",
+      "genre": "16",
+      "description": "An epic adventure story.",
+      "status": "read",
+      "genreId": "16"
+    },
+    {
+      "id": "1010",
+      "title": "Classic Tales Revisited",
+      "author": "Jane Austen Jr.",
+      "genre": "17",
+      "description": "Modern takes on classic literature.",
+      "status": "ongoing",
+      "genreId": "17"
     }
   ],
   "genres": [
     {
       "id": "1",
       "name": "Fantasy",
-      "books": []
+      "books": [
+        {
+          "id": "1001",
+          "title": "The Mystic Isles",
+          "author": "Alice Greene",
+          "genre": "1",
+          "description": "A tale of magic and mystery.",
+          "status": "read",
+          "genreId": "1"
+        }
+      ]
     },
     {
       "id": "2",
       "name": "Romance",
-      "books": []
+      "books": [
+        {
+          "id": "1002",
+          "title": "Love in the Moonlight",
+          "author": "Emma Frost",
+          "genre": "2",
+          "description": "A timeless romance.",
+          "status": "ongoing",
+          "genreId": "2"
+        }
+      ]
     },
     {
       "id": "6",
       "name": "Horror",
-      "books": []
+      "books": [
+        {
+          "id": "1003",
+          "title": "The Haunted Manor",
+          "author": "John Black",
+          "genre": "6",
+          "description": "A chilling horror story.",
+          "status": "to-be-read",
+          "genreId": "6"
+        }
+      ]
     },
     {
       "id": "7",
@@ -46,6 +166,15 @@
           "genre": "7",
           "description": "fe",
           "status": "to-be-read",
+          "genreId": "7"
+        },
+        {
+          "id": "1004",
+          "title": "Timeless Heroes",
+          "author": "Peter Clarke",
+          "genre": "7",
+          "description": "Adventures from the past.",
+          "status": "read",
           "genreId": "7"
         }
       ]
@@ -66,114 +195,94 @@
       ]
     },
     {
-      "id": "9",
-      "name": "Autobiography",
-      "books": []
-    },
-    {
-      "id": "10",
-      "name": "Self-Help",
-      "books": []
-    },
-    {
       "id": "11",
       "name": "Philosophy",
-      "books": []
+      "books": [
+        {
+          "id": "1005",
+          "title": "The Philosopher's Mind",
+          "author": "Sophia Lee",
+          "genre": "11",
+          "description": "Exploring philosophical ideas.",
+          "status": "read",
+          "genreId": "11"
+        }
+      ]
     },
     {
       "id": "12",
       "name": "Poetry",
-      "books": []
+      "books": [
+        {
+          "id": "1006",
+          "title": "Poetry of the Heart",
+          "author": "William Poe",
+          "genre": "12",
+          "description": "A collection of heartfelt poems.",
+          "status": "ongoing",
+          "genreId": "12"
+        }
+      ]
     },
     {
       "id": "13",
       "name": "Graphic Novels",
-      "books": []
+      "books": [
+        {
+          "id": "1007",
+          "title": "The Graphic World",
+          "author": "Chris Hart",
+          "genre": "13",
+          "description": "A deep dive into graphic novels.",
+          "status": "to-be-read",
+          "genreId": "13"
+        }
+      ]
     },
     {
       "id": "14",
       "name": "Young Adult",
-      "books": []
-    },
-    {
-      "id": "15",
-      "name": "Children's",
-      "books": []
+      "books": [
+        {
+          "id": "1008",
+          "title": "Youthful Dreams",
+          "author": "Lara Bright",
+          "genre": "14",
+          "description": "A captivating young adult novel.",
+          "status": "to-be-read",
+          "genreId": "14"
+        }
+      ]
     },
     {
       "id": "16",
       "name": "Adventure",
-      "books": []
+      "books": [
+        {
+          "id": "1009",
+          "title": "The Great Adventures",
+          "author": "Mark Rivers",
+          "genre": "16",
+          "description": "An epic adventure story.",
+          "status": "read",
+          "genreId": "16"
+        }
+      ]
     },
     {
       "id": "17",
       "name": "Classic Literature",
-      "books": []
-    },
-    {
-      "id": "18",
-      "name": "Non-Fiction",
-      "books": []
-    },
-    {
-      "id": "19",
-      "name": "Cooking",
-      "books": []
-    },
-    {
-      "id": "20",
-      "name": "Travel",
-      "books": []
-    },
-    {
-      "id": "21",
-      "name": "Religion",
-      "books": []
-    },
-    {
-      "id": "22",
-      "name": "Spirituality",
-      "books": []
-    },
-    {
-      "id": "23",
-      "name": "Politics",
-      "books": []
-    },
-    {
-      "id": "24",
-      "name": "Economics",
-      "books": []
-    },
-    {
-      "id": "25",
-      "name": "Science",
-      "books": []
-    },
-    {
-      "id": "26",
-      "name": "Technology",
-      "books": []
-    },
-    {
-      "id": "27",
-      "name": "Psychology",
-      "books": []
-    },
-    {
-      "id": "28",
-      "name": "Health & Wellness",
-      "books": []
-    },
-    {
-      "id": "29",
-      "name": "Art & Design",
-      "books": []
-    },
-    {
-      "id": "30",
-      "name": "True Crime",
-      "books": []
+      "books": [
+        {
+          "id": "1010",
+          "title": "Classic Tales Revisited",
+          "author": "Jane Austen Jr.",
+          "genre": "17",
+          "description": "Modern takes on classic literature.",
+          "status": "ongoing",
+          "genreId": "17"
+        }
+      ]
     }
   ]
 }

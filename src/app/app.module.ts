@@ -45,6 +45,7 @@ import { ConfirmDeleteModalComponent } from './shared/confirm-delete-modal/confi
 import { BookFormModalComponent } from './books/book-form-modal/book-form-modal.component';
 import { NgChartsModule } from 'ng2-charts';
 import { GenreComponent } from './genre/genre.component';
+import { GenreService } from './services/genre.service';
 
 
 
@@ -94,7 +95,7 @@ import { GenreComponent } from './genre/genre.component';
     
   ],
   providers: [provideHttpClient(),provideNativeDateAdapter(),{provide: MatDialogRef,useValue: {}
-  },{ provide: MAT_DIALOG_DATA, useValue: {} },], // Add this],
+  },{ provide: MAT_DIALOG_DATA, useValue: {} },GenreService], // Add this],
   bootstrap: [AppComponent],
   
 })

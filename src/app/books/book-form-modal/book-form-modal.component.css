@@ -1,96 +1,156 @@
-.reading-list-form {
+/* Dialog Content Styling */
+mat-dialog-content {
   display: flex;
   flex-direction: column;
-  gap: 24px; /* Slightly bigger gap for better spacing */
-  padding: 24px;
-  background-color: #fdf6f0; /* Very soft peach background for warmth */
-  border-radius: 16px; /* More rounded corners for a soft, cute look */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
-  width: 100%;
-  max-width: 600px; /* Form takes more space */
-  margin: 0 auto;
+  gap: 15px;
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
 }
 
+/* Form Fields Styling */
 .form-field {
-  margin-bottom: 24px; /* Increased space between form fields */
+  width: 100%;
 }
 
-button.mat-raised-button {
-  padding: 8px 16px; /* Smaller buttons with more padding */
-  font-size: 14px; /* Subtle text size */
-  border-radius: 20px; /* Rounded edges for buttons */
-  transition: background-color 0.3s ease, transform 0.2s ease;
+mat-form-field {
+  background: #f9fbfc;
+  border-radius: 8px;
+  padding: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button.mat-primary.save-btn {
-  background-color: #ffb3d9; /* Soft pastel pink */
-  color: #fff;
+mat-form-field .mat-input-element {
+  font-size: 1rem;
+  color: #333;
+}
+
+mat-form-field.mat-focused {
+  background: #e3f2f5;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 135, 147, 0.5);
+}
+
+mat-label {
+  color: #555;
   font-weight: 600;
 }
 
-button.mat-primary.save-btn:hover {
-  background-color: #ff80b3; /* Slightly darker pink for hover effect */
-  transform: translateY(-2px); /* Slight lift on hover for interactivity */
-}
-
-button.close-btn {
-  background-color: #a3e4d7; /* Light mint green */
-  color: #fff;
+mat-error {
+  color: #e53935;
+  font-size: 0.9rem;
   font-weight: 600;
 }
-
-button.close-btn:hover {
-  background-color: #7ec8b6; /* Slightly darker mint green for hover */
-  transform: translateY(-2px); /* Slight lift on hover */
-}
-
+/* Mat-Select Dropdown */
 mat-select {
-  background-color: #fff; /* White background for dropdown */
-  border-radius: 10px; /* Rounded corners for select box */
-  padding: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for select box */
+  background: white;
+  border-radius: 8px;
+  color: #333;
 }
 
-mat-form-field .mat-label {
+.mat-select-panel {
+  background: #ffffff; /* Solid white background for the dropdown */
+  border: 1px solid #d6e4ea;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Mat-Option Styling */
+.mat-option {
+  background: #ffffff; /* Ensure solid background for visibility */
+  color: #333; /* Text color for readability */
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.mat-option:hover {
+  background: #e3f2f5; /* Light teal on hover */
+  color: #005f73;
+}
+
+.mat-option.mat-active {
+  background: #008c9e; /* Highlight active option with teal */
+  color: white; /* White text for active option */
+}
+
+/* Fix for Selected Option */
+.mat-select-value {
+  color: #333; /* Ensure the selected value is readable */
+  font-size: 1rem;
   font-weight: 600;
-  color: #ff77a9; /* Light coral pink for labels */
-  font-size: 18px; /* Bigger label text for readability */
 }
 
-mat-form-field mat-error {
-  color: #f56c6c; /* Soft red for error messages */
-  font-size: 14px;
+/* Scrollbar Styling for Long Dropdowns */
+.mat-select-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mat-select-panel::-webkit-scrollbar-thumb {
+  background: #c5d9e8;
+  border-radius: 4px;
+}
+
+.mat-select-panel::-webkit-scrollbar-thumb:hover {
+  background: #a6c8df;
 }
 
 textarea.mat-input-element {
-  border-radius: 10px;
-  padding: 12px;
-  background-color: #fff; /* White background for textarea */
-  font-size: 14px;
-  line-height: 1.5;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for textareas */
+  resize: none;
 }
 
-/* Input Fields - Make inputs visible and user-friendly */
-mat-form-field input, 
-textarea.mat-input-element, 
-mat-select {
-  background-color: #fff; /* Make inputs white to stand out */
-  border: 1px solid #f1f1f1; /* Light border for input fields */
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 16px;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+/* Dialog Actions Styling */
+mat-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 20px;
+  background: #f3f4f6;
+  border-top: 1px solid #d6e4ea;
 }
 
-mat-form-field input:focus, 
-textarea.mat-input-element:focus, 
-mat-select:focus {
-  border-color: #ff77a9; /* Highlight with soft coral pink on focus */
-  box-shadow: 0 0 8px rgba(255, 119, 169, 0.5); /* Soft glow effect */
+mat-dialog-actions .mat-raised-button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-mat-form-field input::placeholder, 
-textarea.mat-input-element::placeholder {
-  color: #bbb; /* Lighter placeholder text */
+mat-dialog-actions .close-btn {
+  background: #e53935;
+  color: white;
+}
+
+mat-dialog-actions .close-btn:hover {
+  background: #d32f2f;
+}
+
+mat-dialog-actions .save-btn {
+  background: #008c9e;
+  color: white;
+}
+
+mat-dialog-actions .save-btn:hover {
+  background: #007487;
+}
+@media (max-width: 768px) {
+  mat-dialog-content {
+    padding: 15px;
+  }
+
+  mat-dialog-actions {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  mat-form-field {
+    width: 100%;
+  }
 }

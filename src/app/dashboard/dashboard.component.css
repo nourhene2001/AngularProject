@@ -1,72 +1,92 @@
-/* General container for cards */
+/* General Layout */
 div {
-    display: flex;
-    justify-content: space-around;
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+}
+
+/* Cards Wrapper */
+div[style*="justify-content: space-around"] {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  gap: 20px; /* Space between cards */
+  margin: 20px auto;
+}
+
+/* Individual Cards Styling */
+mat-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 250px; /* Uniform size for all cards */
+  text-align: center;
+}
+
+mat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+mat-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #008c9e; /* Primary teal color */
+}
+
+mat-card-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333; /* Subtitle color */
+}
+
+/* Chart Wrapper */
+.chart-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px; /* Space between chart sections */
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.chart-wrapper div {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chart-wrapper div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.chart-wrapper h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #005f73; /* Slightly darker teal */
+  margin-bottom: 15px;
+}
+
+/* Charts */
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  div[style*="justify-content: space-around"] {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-wrapper {
+    grid-template-columns: 1fr; /* One chart per row on smaller screens */
     gap: 20px;
-    margin: 20px 0;
-    flex-wrap: wrap;
   }
-  
-  /* Style for mat-cards */
-  mat-card {
-    background-color: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 220px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  /* On hover, add some interactivity */
-  mat-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Header inside mat-card */
-  mat-card-header {
-    background-color: #b6898d;
-    color: white;
-    border-radius: 8px;
-    padding: 10px;
-  }
-  
-  /* Card title */
-  mat-card-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-  }
-  
-  /* Card subtitle */
-  mat-card-subtitle {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 8px;
-    color: #ffffff;
-  }
-  
- 
-  /* Each chart container */
-  .chart-wrapper div {
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Heading inside chart container */
-  .chart-wrapper h3 {
-    font-size: 1.2rem;
-    color: #b6898d;;
-    margin-bottom: 15px;
-    font-weight: bold;
-  }
-  
-  /* Ensuring canvas is responsive and centers properly */
-  canvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-  
-  
+}

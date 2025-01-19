@@ -27,6 +27,7 @@ export class GenreComponent implements OnInit {
   viewBooksByGenre(genre: Genre): void {
     this.genreService.getGenreById(genre.id).subscribe((data) => {
       this.selectedGenre = data;
+      
     });
   }
 

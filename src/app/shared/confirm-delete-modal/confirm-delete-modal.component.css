@@ -1,0 +1,79 @@
+/* Dialog Container Styling */
+.custom-dialog mat-dialog-container {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+  }
+  
+  /* Dialog Title */
+  .custom-dialog mat-dialog-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e53935; /* Warning red for emphasis */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Dialog Content */
+  .custom-dialog mat-dialog-content {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Dialog Actions */
+  .custom-dialog mat-dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* Cancel Button */
+  .custom-dialog mat-dialog-actions .mat-button {
+    background: #f3f4f6;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-dialog mat-dialog-actions .mat-button:hover {
+    background: #e3f2f5; /* Light teal */
+    transform: translateY(-2px);
+  }
+  
+  .custom-dialog mat-dialog-actions .mat-button:active {
+    background: #d6e4ea;
+    transform: translateY(1px);
+  }
+  
+  /* Delete Button */
+  .custom-dialog mat-dialog-actions .mat-button[color='warn'] {
+    background: #e53935; /* Red for delete action */
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-dialog mat-dialog-actions .mat-button[color='warn']:hover {
+    background: #d32f2f;
+    transform: translateY(-2px);
+  }
+  
+  .custom-dialog mat-dialog-actions .mat-button[color='warn']:active {
+    background: #b71c1c;
+    transform: translateY(1px);
+  }
+  
