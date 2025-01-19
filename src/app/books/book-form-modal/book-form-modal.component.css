@@ -1,76 +1,96 @@
-mat-dialog-content {
-    background-color: #ffffff; 
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 700px;
-    margin: 20px auto;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  mat-form-field {
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 8px;
-  }
-  
-  input, textarea, mat-select {
-    background-color: #f9f9f9; 
-    border: 1px solid #d1d1d1;
-    padding: 12px;
-    font-size: 1rem;
-    border-radius: 8px;
-    transition: border-color 0.3s ease;
-  }
-  
-  input:focus, textarea:focus, mat-select:focus {
-    border-color: #ca8f94; 
-  }
-  
-  textarea {
-    resize: vertical;
-    min-height: 120px;
-  }
-  
-  
-  mat-error {
-    color: #e74c3c; 
-    font-size: 0.875rem;
-    margin-top: 5px;
-  }
-  
-  mat-dialog-actions {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f7f7f7; 
-    border-top: 1px solid #e0e0e0;
-    border-radius: 0 0 12px 12px;
-  }
-  
-  button.mat-raised-button {
-    background-color: #ca8f94; 
-    color: #ffffff;
-    padding: 12px 24px;
-    font-size: 1.1rem;
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  button.mat-raised-button:hover {
-    background-color: #72282e; 
-    transform: translateY(-3px);
-  }
-  
-  button.mat-raised-button[disabled] {
-    background-color: #d1d1d1;
-    cursor: not-allowed;
-  }
-  
-  button.mat-raised-button:not(:last-child) {
-    margin-right: 5px;
-  }
-  
+.reading-list-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Slightly bigger gap for better spacing */
+  padding: 24px;
+  background-color: #fdf6f0; /* Very soft peach background for warmth */
+  border-radius: 16px; /* More rounded corners for a soft, cute look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+  width: 100%;
+  max-width: 600px; /* Form takes more space */
+  margin: 0 auto;
+}
+
+.form-field {
+  margin-bottom: 24px; /* Increased space between form fields */
+}
+
+button.mat-raised-button {
+  padding: 8px 16px; /* Smaller buttons with more padding */
+  font-size: 14px; /* Subtle text size */
+  border-radius: 20px; /* Rounded edges for buttons */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.mat-primary.save-btn {
+  background-color: #ffb3d9; /* Soft pastel pink */
+  color: #fff;
+  font-weight: 600;
+}
+
+button.mat-primary.save-btn:hover {
+  background-color: #ff80b3; /* Slightly darker pink for hover effect */
+  transform: translateY(-2px); /* Slight lift on hover for interactivity */
+}
+
+button.close-btn {
+  background-color: #a3e4d7; /* Light mint green */
+  color: #fff;
+  font-weight: 600;
+}
+
+button.close-btn:hover {
+  background-color: #7ec8b6; /* Slightly darker mint green for hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+mat-select {
+  background-color: #fff; /* White background for dropdown */
+  border-radius: 10px; /* Rounded corners for select box */
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for select box */
+}
+
+mat-form-field .mat-label {
+  font-weight: 600;
+  color: #ff77a9; /* Light coral pink for labels */
+  font-size: 18px; /* Bigger label text for readability */
+}
+
+mat-form-field mat-error {
+  color: #f56c6c; /* Soft red for error messages */
+  font-size: 14px;
+}
+
+textarea.mat-input-element {
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #fff; /* White background for textarea */
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for textareas */
+}
+
+/* Input Fields - Make inputs visible and user-friendly */
+mat-form-field input, 
+textarea.mat-input-element, 
+mat-select {
+  background-color: #fff; /* Make inputs white to stand out */
+  border: 1px solid #f1f1f1; /* Light border for input fields */
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+mat-form-field input:focus, 
+textarea.mat-input-element:focus, 
+mat-select:focus {
+  border-color: #ff77a9; /* Highlight with soft coral pink on focus */
+  box-shadow: 0 0 8px rgba(255, 119, 169, 0.5); /* Soft glow effect */
+}
+
+mat-form-field input::placeholder, 
+textarea.mat-input-element::placeholder {
+  color: #bbb; /* Lighter placeholder text */
+}

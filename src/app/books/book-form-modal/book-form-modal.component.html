@@ -1,6 +1,6 @@
-<mat-dialog-content [formGroup]="form">
+<mat-dialog-content [formGroup]="form" class="reading-list-form">
   <!-- Book Title -->
-  <mat-form-field appearance="fill">
+  <mat-form-field appearance="fill" class="form-field">
     <mat-label>Book Title</mat-label>
     <input matInput placeholder="Book Title" formControlName="title" />
     <mat-error *ngIf="form.get('BookTitle')?.hasError('required')">
@@ -9,7 +9,7 @@
   </mat-form-field>
 
   <!-- Book Author -->
-  <mat-form-field appearance="fill">
+  <mat-form-field appearance="fill" class="form-field">
     <mat-label>Book Author</mat-label>
     <input matInput placeholder="Book Author" formControlName="author" />
     <mat-error *ngIf="form.get('BookAuthor')?.hasError('required')">
@@ -18,19 +18,23 @@
   </mat-form-field>
 
   <!-- Genre -->
-  <mat-form-field appearance="fill">
+  <mat-form-field appearance="fill" class="form-field">
     <mat-label>Genre</mat-label>
-    <input matInput placeholder="Genre" formControlName="genre" />
+    <mat-select formControlName="genre" required>
+      <mat-option *ngFor="let genre of genres" [value]="genre.id">
+        {{ genre.name }}
+      </mat-option>
+    </mat-select>
   </mat-form-field>
 
   <!-- Description -->
-  <mat-form-field appearance="fill">
+  <mat-form-field appearance="fill" class="form-field">
     <mat-label>Description</mat-label>
     <textarea matInput placeholder="Description" formControlName="description"></textarea>
   </mat-form-field>
 
   <!-- Status -->
-  <mat-form-field appearance="fill">
+  <mat-form-field appearance="fill" class="form-field">
     <mat-label>Status</mat-label>
     <mat-select formControlName="status">
       <mat-option value="read">Read</mat-option>
@@ -41,7 +45,6 @@
 </mat-dialog-content>
 
 <mat-dialog-actions>
-  <button class="mat-raised-button" (click)="close()">Close</button>
-  
-  <button class="mat-raised-button mat-primary" [disabled]="form.invalid" (click)="save()">Save</button>
+  <button class="mat-raised-button close-btn" (click)="close()">Close</button>
+  <button class="mat-raised-button mat-primary save-btn" [disabled]="form.invalid" (click)="save()">Save</button>
 </mat-dialog-actions>

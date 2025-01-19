@@ -1,44 +1,179 @@
 {
   "books": [
     {
-      "id": "9b1f",
-      "title": "1984",
-      "author": "George Orwell",
-      "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
-      "genre": "Dystopian",
-      "status": "read"
+      "id": "6494",
+      "title": "flzek",
+      "author": "gfd",
+      "genre": "7",
+      "description": "fe",
+      "status": "to-be-read",
+      "genreId": "7"
     },
     {
-      "id": "3a6d",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "description": "A romantic novel that explores the themes of love, reputation, and class.",
-      "genre": "Romance",
-      "status": "ongoing"
+      "id": "5860",
+      "title": "gkzljk",
+      "author": ",gkl",
+      "genre": "8",
+      "description": "glr",
+      "status": "to-be-read",
+      "genreId": "8"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Fantasy",
+      "books": []
     },
     {
-      "id": "7b2e",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "description": "An adventure novel following Bilbo Baggins as he joins a group of dwarves on a quest.",
-      "genre": "Fantasy",
-      "status": "read"
+      "id": "2",
+      "name": "Romance",
+      "books": []
     },
     {
-      "id": "2a9f",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "description": "A historical novel set during the Napoleonic wars, dealing with complex themes of society, war, and love.",
-      "genre": "thriller",
-      "status": "ongoing"
+      "id": "6",
+      "name": "Horror",
+      "books": []
     },
     {
-      "id": "4da9",
-      "title": "1st case",
-      "author": "james patternson",
-      "genre": "thriller",
-      "description": "ieeeekh\nieekh whdk\n",
-      "status": "read"
+      "id": "7",
+      "name": "Historical Fiction",
+      "books": [
+        {
+          "id": "6494",
+          "title": "flzek",
+          "author": "gfd",
+          "genre": "7",
+          "description": "fe",
+          "status": "to-be-read",
+          "genreId": "7"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Biography",
+      "books": [
+        {
+          "id": "5860",
+          "title": "gkzljk",
+          "author": ",gkl",
+          "genre": "8",
+          "description": "glr",
+          "status": "to-be-read",
+          "genreId": "8"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Autobiography",
+      "books": []
+    },
+    {
+      "id": "10",
+      "name": "Self-Help",
+      "books": []
+    },
+    {
+      "id": "11",
+      "name": "Philosophy",
+      "books": []
+    },
+    {
+      "id": "12",
+      "name": "Poetry",
+      "books": []
+    },
+    {
+      "id": "13",
+      "name": "Graphic Novels",
+      "books": []
+    },
+    {
+      "id": "14",
+      "name": "Young Adult",
+      "books": []
+    },
+    {
+      "id": "15",
+      "name": "Children's",
+      "books": []
+    },
+    {
+      "id": "16",
+      "name": "Adventure",
+      "books": []
+    },
+    {
+      "id": "17",
+      "name": "Classic Literature",
+      "books": []
+    },
+    {
+      "id": "18",
+      "name": "Non-Fiction",
+      "books": []
+    },
+    {
+      "id": "19",
+      "name": "Cooking",
+      "books": []
+    },
+    {
+      "id": "20",
+      "name": "Travel",
+      "books": []
+    },
+    {
+      "id": "21",
+      "name": "Religion",
+      "books": []
+    },
+    {
+      "id": "22",
+      "name": "Spirituality",
+      "books": []
+    },
+    {
+      "id": "23",
+      "name": "Politics",
+      "books": []
+    },
+    {
+      "id": "24",
+      "name": "Economics",
+      "books": []
+    },
+    {
+      "id": "25",
+      "name": "Science",
+      "books": []
+    },
+    {
+      "id": "26",
+      "name": "Technology",
+      "books": []
+    },
+    {
+      "id": "27",
+      "name": "Psychology",
+      "books": []
+    },
+    {
+      "id": "28",
+      "name": "Health & Wellness",
+      "books": []
+    },
+    {
+      "id": "29",
+      "name": "Art & Design",
+      "books": []
+    },
+    {
+      "id": "30",
+      "name": "True Crime",
+      "books": []
     }
   ]
 }

@@ -1,0 +1,42 @@
+<div *ngIf="!selectedGenre">
+  <h2>Genres</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Genre</th>
+        <th>Number of Books</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let genre of genres">
+        <td>{{ genre.name }}</td>
+        <td>{{ genre.books.length }}</td>
+        <td><button (click)="viewBooksByGenre(genre)">View Books</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="selectedGenre">
+  <h2>Books in {{ selectedGenre.name }}</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of selectedGenre.books">
+        <td>{{ book.title }}</td>
+        <td>{{ book.author }}</td>
+        <td>{{ book.description }}</td>
+        <td>{{ book.status }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button (click)="clearSelectedGenre()">Back to Genres</button>
+</div>

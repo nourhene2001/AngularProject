@@ -13,10 +13,19 @@
       </mat-form-field>
   
       <!-- Genre -->
-      <mat-form-field appearance="fill">
-        <mat-label>Genre</mat-label>
-        <input matInput placeholder="Genre" formControlName="genre" />
-      </mat-form-field>
+  <!-- Genre -->
+<mat-form-field appearance="fill">
+  <mat-label>Genre</mat-label>
+  <mat-select formControlName="genre">
+    <mat-option *ngFor="let genre of genres" [value]="genre.id">
+      {{ genre.name }}
+    </mat-option>
+  </mat-select>
+  <mat-error *ngIf="form.get('genre')?.hasError('required')">
+    Genre is required.
+  </mat-error>
+</mat-form-field>
+
   
       <!-- Description -->
       <mat-form-field appearance="fill">

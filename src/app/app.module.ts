@@ -44,6 +44,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { ConfirmDeleteModalComponent } from './shared/confirm-delete-modal/confirm-delete-modal.component';
 import { BookFormModalComponent } from './books/book-form-modal/book-form-modal.component';
 import { NgChartsModule } from 'ng2-charts';
+import { GenreComponent } from './genre/genre.component';
 
 
 
@@ -55,7 +56,9 @@ import { NgChartsModule } from 'ng2-charts';
     BookformComponent,
     ConfirmDeleteModalComponent,
     BookFormModalComponent,
-    DashboardComponent
+    DashboardComponent,
+    GenreComponent,
+    
   ],
   imports: [
     AppRoutingModule,
@@ -64,7 +67,7 @@ import { NgChartsModule } from 'ng2-charts';
     FormsModule,
     MatCardModule,
     MatButtonModule,
-    
+
     
     MatIconModule,
     

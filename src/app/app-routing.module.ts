@@ -5,6 +5,7 @@ import { BookListComponent } from './books/book-list/book-list.component';
 import { BookFormModalComponent } from './books/book-form-modal/book-form-modal.component';
 import { BookformComponent } from './books/bookform/bookform.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { GenreComponent } from './genre/genre.component';
 
 export const routes: Routes = [
   {
@@ -30,6 +31,11 @@ export const routes: Routes = [
     path: 'Dashboard',
     pathMatch: 'full',
     component: DashboardComponent,
+  },
+  {
+    path: 'genre',
+    pathMatch: 'full',
+    component: GenreComponent,
   },
 ];
 
