@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fD9eqMUhoAiQx2+r2oNZrL/iu8WTUeD/V3hUopCt3QA=",
+  "Source": "BookReadingListAPI",
+  "BasePath": "_content/BookReadingListAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

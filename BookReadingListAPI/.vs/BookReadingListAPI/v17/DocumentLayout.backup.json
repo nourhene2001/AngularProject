@@ -1,0 +1,568 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\migrations\\20250205183722_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:migrations\\20250205183722_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\migrations\\20250205183722_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:migrations\\20250205183722_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|d:\\angular project\\bookmangement\\bookreadinglistapi\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05392CCE-259A-4FCF-A128-DC1E80522625}|BookReadingListAPI.csproj|solutionrelative:controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250205183722_InitialCreate.Designer.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Migrations\\20250205183722_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250205183722_InitialCreate.Designer.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Migrations\\20250205183722_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250205183722_InitialCreate.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:43:04.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250205183722_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Migrations\\20250205183722_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250205183722_InitialCreate.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Migrations\\20250205183722_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250205183722_InitialCreate.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:28:33.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:27:17.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:59:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T16:37:18.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:04:07.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:26:21.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:31:11.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:14:05.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\UserService.cs",
+              "RelativeDocumentMoniker": "UserService.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\UserService.cs",
+              "RelativeToolTip": "UserService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T12:51:14.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T22:36:31.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "user.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\user.cs",
+              "RelativeDocumentMoniker": "Models\\user.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\user.cs",
+              "RelativeToolTip": "Models\\user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:21:44.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterRequest.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\RegisterRequest.cs",
+              "RelativeToolTip": "Models\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:13:27.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\DTO\\BookDto.cs",
+              "RelativeDocumentMoniker": "DTO\\BookDto.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\DTO\\BookDto.cs",
+              "RelativeToolTip": "DTO\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:22:41.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:03:27.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PublisherRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\PublisherRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PublisherRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\PublisherRepository.cs",
+              "RelativeToolTip": "Repositories\\PublisherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:01:18.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AuthorRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:59:29.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:02:20.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\IUserService.cs",
+              "RelativeDocumentMoniker": "IUserService.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\IUserService.cs",
+              "RelativeToolTip": "IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T12:51:44.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T12:48:48.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:50:59.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\JwtService.cs",
+              "RelativeDocumentMoniker": "JwtService.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\JwtService.cs",
+              "RelativeToolTip": "JwtService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T12:03:36.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wCYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:11:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAALYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:58:09.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Repository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAzwCgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:51:34.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Repositories\\BookRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:00:11.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenreRepository.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:00:42.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Publisher.cs",
+              "RelativeDocumentMoniker": "Models\\Publisher.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Publisher.cs",
+              "RelativeToolTip": "Models\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T21:19:45.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T20:09:16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Models\\Author.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Author.cs",
+              "RelativeToolTip": "Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T21:19:31.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "Models\\Genre.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Models\\Genre.cs",
+              "RelativeToolTip": "Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T20:10:59.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PublishersController.cs",
+              "DocumentMoniker": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\PublishersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PublishersController.cs",
+              "ToolTip": "D:\\Angular project\\BookMangement\\BookReadingListAPI\\Controllers\\PublishersController.cs",
+              "RelativeToolTip": "Controllers\\PublishersController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:10:26.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
